@@ -1,0 +1,6 @@
+var source = $("edu-template").html();
+$('#edu_fields').append(source.replace(/@COUNT@/g, countEdu));
+...
+<script id="edu-template" type="text">
+    text... edu_year@COUNT@
+</script>
